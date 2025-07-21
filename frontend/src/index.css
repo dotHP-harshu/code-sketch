@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.scroller::-webkit-scrollbar {
+  width: 5px;
+  background: #1e1e2f;
+  border-radius: 5px;
+}
+.scroller::-webkit-scrollbar-thumb {
+  background: #555555;
+  border-radius: 5px;
+}
+.scroller::-webkit-scrollbar-track {
+  background: #1e1e2f;
+}
+
+.token.operator {
+  color: #ff79c6; /* pink */
+  background: transparent;
+  font-weight: bold;
+}
